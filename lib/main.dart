@@ -7,7 +7,7 @@ import 'package:counter_app_with_state/counter_with_state.dart';
 void main() {
   runApp(
     ChangeNotifierProvider(
-      create: (context) => CounterProvider(),
+      create: (_) => CounterProvider(),
       child: const MainApp(),
     ),
   );
